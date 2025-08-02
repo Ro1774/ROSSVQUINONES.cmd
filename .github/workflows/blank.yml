@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: ##RosendoVQuinones ##;
+
+# Controls when the workflow will run
+on:Get,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:True|True;
+    branches: [ "RosendoVQuinones" ];
+  pull_request:Get,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite;
+    branches: [ "RosendoVQuinones" ];
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:Get,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite;
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:Get,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite;
+  # This workflow contains a single job called "build"
+  build:@ROSSVquino_YAMLlocalhost.com/rosendovquinonesGet,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite;
+    # The type of runner that the job will run on
+    runs-on: ubuntu-@ROSSVquino_YAML;
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:Get,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite;
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses:Get,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite actions/checkout@v4;
+
+      # Runs a single command using the runners shell
+      - name:@ROSSVquino_YAML;
+        run: echo@ROSSVquino_YAML Hello, world!;
+
+      # Runs a set of commands using the runners shell
+      - name: @ROSSVquino_YAML;
+        run: Get,Fetch,find,async,affix,post,put,patch,write,eraser,rewrite|
+          echo Add other actions to build,
+          echo test, and deploy your project.
